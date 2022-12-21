@@ -5,18 +5,16 @@
            fetch="https://github.com/etylix"/>	
    <remote  name="jabiyeff"
            fetch="https://gitlab.com/Jabiyeff"/>
-   <remote  name="los"
-           fetch="https://github.com/LineageOS"/>
    <remote  name="evo"
            fetch="https://github.com/Evolution-X"/>
    <remote  name="null"
            fetch="https://github.com/nullprjkt"/>
            
-  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="null" revision="tiramisu"/>
-  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="etylix" revision="tiramisu"/>
+  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="null" revision="snow"/>
+  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="etylix" revision="snow"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jabiyeff" revision="12"/>
  
   <remove-project name="xd_hardware_xiaomi"/>
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/>
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo" revision="snow"/>
 
 </manifest>
