@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-   <remote  name="hsx"
-           fetch="https://github.com/hsx02" />        	
+   <remote  name="lix"
+           fetch="https://github.com/etylix"    	
    <remote  name="jbf"
            fetch="https://gitlab.com/Jabiyeff" />
    <remote  name="los"
            fetch="https://github.com/LineageOS" />
    <remote  name="jbfy"
            fetch="https://github.com/Jabiyeff" />
-  <remote  name="evo-gl"
-           fetch="https://gitlab.com/EvoX" />
   <remote  name="evo"
            fetch="https://github.com/Evolution-X" />
            
-   
+  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="evo" revision="tiramisu"/>
+  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="evo" revision="tiramisu"/>
+  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jbf" revision="12" />
+ 
   <remove-project name="xd_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/>
 
