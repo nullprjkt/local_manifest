@@ -2,19 +2,19 @@
 <manifest>
 	
    <remote  name="elix"
-           fetch="https://github.com/etylix" />	
+           fetch="https://github.com/etylix"/>	
    <remote  name="jbf"
-           fetch="https://gitlab.com/Jabiyeff" />
+           fetch="https://gitlab.com/Jabiyeff"/>
    <remote  name="los"
-           fetch="https://github.com/LineageOS" />
+           fetch="https://github.com/LineageOS"/>
    <remote  name="evo"
-           fetch="https://github.com/Evolution-X" />
+           fetch="https://github.com/Evolution-X"/>
    <remote  name="null"
-           fetch="https://github.com/nullprjkt" />
+           fetch="https://github.com/nullprjkt"/>
            
   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="null" revision="tiramisu"/>
   <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="elix" revision="tiramisu"/>
-  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jbf" revision="12" />
+  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jbf" revision="12"/>
  
   <remove-project name="xd_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/>
