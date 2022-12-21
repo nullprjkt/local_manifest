@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-   <remote  name="lix"
-           fetch="https://github.com/etylix"    	
+   <remote  name="elix"
+           fetch="https://github.com/etylix" />	
    <remote  name="jbf"
            fetch="https://gitlab.com/Jabiyeff" />
    <remote  name="los"
@@ -13,7 +13,7 @@
            fetch="https://github.com/nullprjkt" />
            
   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="null" revision="tiramisu"/>
-  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="evo" revision="tiramisu"/>
+  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="elix" revision="tiramisu"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jbf" revision="12" />
  
   <remove-project name="xd_hardware_xiaomi"/>
