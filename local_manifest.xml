@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-   <remote  name="elix"
+   <remote  name="etylix"
            fetch="https://github.com/etylix"/>	
-   <remote  name="jbf"
+   <remote  name="jabiyeff"
            fetch="https://gitlab.com/Jabiyeff"/>
    <remote  name="los"
            fetch="https://github.com/LineageOS"/>
@@ -13,8 +13,8 @@
            fetch="https://github.com/nullprjkt"/>
            
   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="null" revision="tiramisu"/>
-  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="elix" revision="tiramisu"/>
-  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jbf" revision="12"/>
+  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="etylix" revision="tiramisu"/>
+  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jabiyeff" revision="12"/>
  
   <remove-project name="xd_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/>
