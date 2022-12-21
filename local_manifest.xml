@@ -7,12 +7,12 @@
            fetch="https://gitlab.com/Jabiyeff" />
    <remote  name="los"
            fetch="https://github.com/LineageOS" />
-   <remote  name="jbfy"
-           fetch="https://github.com/Jabiyeff" />
-  <remote  name="evo"
+   <remote  name="evo"
            fetch="https://github.com/Evolution-X" />
+   <remote  name="null"
+           fetch="https://github.com/nullprjkt" />
            
-  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="evo" revision="tiramisu"/>
+  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="null" revision="tiramisu"/>
   <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="evo" revision="tiramisu"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jbf" revision="12" />
  
