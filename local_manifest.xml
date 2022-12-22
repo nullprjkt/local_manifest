@@ -16,8 +16,7 @@
            
   <project path="device/xiaomi/spes" name="xd_device_xiaomi_spes" remote="null" revision="thirteen"/>
   <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="etylix" revision="tiramisu"/>
-  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jabiyeff" revision="12"/>
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
+  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jabiyeff" revision="12" clone-depth="1"/>
  
   <remove-project name="xd_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-20" revision="lineage-20"/>
@@ -30,7 +29,6 @@
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="evo" revision="snow"/>
   <remove-project name="android_vendor_qcom_opensource_bluetooth_ext"/>
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="evo" revision="snow"/>
-
 </manifest>
 
 rm -rf vendor/qcom/opensource/commonsys/packages/apps/Bluetooth && git clone https://github.com/Evolution-X/vendor_qcom_opensource_packages_apps_Bluetooth vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
