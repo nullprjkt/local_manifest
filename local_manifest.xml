@@ -11,12 +11,12 @@
            fetch="https://github.com/nullprjkt"/>
            
   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="null" revision="tiramisu"/>
-  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="etylix" revision="tiramisu"/>
+  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="jabiyeff" revision="tiramisu"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jabiyeff" revision="12"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
  
   <remove-project name="xd_hardware_xiaomi"/>
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo" revision="snow"/>
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="lineage" revision="lineage-20"/>
 
   <remove-project name="android_vendor_qcom_opensource_packages_apps_Bluetooth"/>
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="evo" revision="snow"/>
